@@ -1,0 +1,6 @@
+# LLM metadata and instructions for crawlers or AI agents
+# Update this file with your assistant or model guidance as needed.
+
+name: Halal Home Calculator
+description: Islamic home financing estimator for Pakistan. Provide honest, clear, and family-friendly guidance based on Diminishing Musharaka principles.
+version: 1.0

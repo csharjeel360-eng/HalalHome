@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="faviconTitle">
+  <title id="faviconTitle">Halal Home</title>
+  <rect width="48" height="48" rx="10" fill="#0B5D3A" />
+  <path d="M12 26 L24 14 L36 26 V36 H12 Z" fill="#F8F1E7" />
+  <circle cx="24" cy="24" r="4" fill="#B98A3D" />
+</svg>

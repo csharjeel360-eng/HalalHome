@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Halal Home</title>
+  <rect width="120" height="120" rx="24" fill="#F8F1E7" />
+  <path d="M30 70 L60 36 L90 70 V90 H30 Z" fill="#0B5D3A" />
+  <path d="M45 76 L75 76 L75 90 H45 Z" fill="#B98A3D" />
+  <circle cx="60" cy="60" r="8" fill="#F8F1E7" />
+  <path d="M33 70 L60 40 L87 70" stroke="#B98A3D" stroke-width="4" fill="none" />
+</svg>

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F3F5F1;
+  color: #16231F;
+}
+
+/* Signature lattice divider — a thin mashrabiya-inspired geometric line,
+   used sparingly between sections instead of a plain rule. */
+.lattice-divider {
+  height: 28px;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: 56px 28px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='28' viewBox='0 0 56 28'%3E%3Cg fill='none' stroke='%23B98A3D' stroke-width='1'%3E%3Cpath d='M0 14 L14 0 L28 14 L14 28 Z'/%3E%3Cpath d='M28 14 L42 0 L56 14 L42 28 Z'/%3E%3C/g%3E%3C/svg%3E");
+  opacity: 0.55;
+}
+
+.focus-ring {
+  outline: none;
+}
+.focus-ring:focus-visible {
+  outline: 2px solid #B98A3D;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
