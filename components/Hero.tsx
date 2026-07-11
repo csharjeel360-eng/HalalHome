@@ -15,6 +15,8 @@ export default function Hero() {
         </span>
         <div className="hidden gap-8 text-sm text-cream/90 sm:flex">
           <a href="#how-it-works" className="focus-ring rounded transition hover:text-gold-light">How it works</a>
+          <a href="/rates" className="focus-ring rounded transition hover:text-gold-light">Rates</a>
+          <a href="/blog" className="focus-ring rounded transition hover:text-gold-light">Blog</a>
           <a href="#calculator" className="focus-ring rounded transition hover:text-gold-light">Calculator</a>
           <a href="#faq" className="focus-ring rounded transition hover:text-gold-light">FAQ</a>
         </div>
