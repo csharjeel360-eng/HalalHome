@@ -3,27 +3,19 @@
 import { useState } from 'react'
 
 const navLinks = [
-  { label: 'How it works', href: '#how-it-works' },
+  { label: 'How it works', href: '/#how-it-works' },
   { label: 'Rates', href: '/rates' },
   { label: 'Blog', href: '/blog' },
-  { label: 'Calculator', href: '#calculator' },
-  { label: 'FAQ', href: '#faq' },
+  { label: 'Calculator', href: '/#calculator' },
+  { label: 'FAQ', href: '/#faq' },
 ]
 
-export default function Hero() {
+export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="relative isolate overflow-hidden">
-      {/* Background image sits behind everything — see /public/images/hero-bg.jpg.png */}
-      <div
-        className="absolute inset-0 -z-10 bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/hero-bg.jpg.png')" }}
-        aria-hidden="true"
-      />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-ink/70 via-ink/50 to-ink/80" aria-hidden="true" />
-
-      <nav className="relative mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-8 sm:py-6">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-ink/95 backdrop-blur">
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-8 sm:py-6">
         <a href="/" className="font-display text-base font-semibold text-cream sm:text-lg">
           Egtafy<span className="text-gold-light"> HalalHome</span>
         </a>
@@ -38,7 +30,7 @@ export default function Hero() {
 
         <div className="flex items-center gap-3">
           <a
-            href="#calculator"
+            href="/#calculator"
             className="focus-ring hidden rounded-full bg-gold px-4 py-2 text-sm font-medium text-ink transition hover:bg-gold-light sm:inline-flex"
           >
             Calculate now
@@ -74,33 +66,13 @@ export default function Hero() {
             </a>
           ))}
           <a
-            href="#calculator"
+            href="/#calculator"
             className="focus-ring mt-2 inline-flex rounded-full bg-gold px-4 py-2 text-sm font-medium text-ink transition hover:bg-gold-light"
             onClick={() => setIsMenuOpen(false)}
           >
             Calculate now
           </a>
         </div>
-      </div>
-
-      <div className="relative mx-auto flex max-w-6xl flex-col items-start px-6 pb-28 pt-16 sm:px-8 sm:pb-36 sm:pt-24">
-        <p className="mb-4 rounded-full border border-gold-light/40 px-4 py-1 text-xs uppercase tracking-widest text-gold-light">
-          Riba-free · Built for Pakistan
-        </p>
-        <h1 className="max-w-2xl font-display text-4xl font-semibold leading-tight text-cream sm:text-5xl md:text-6xl">
-          Estimate your monthly Islamic home payment with confidence.
-        </h1>
-        <p className="mt-6 max-w-xl text-lg text-cream/85">
-          A simple, trustworthy calculator for Diminishing Musharaka home financing in Pakistan.
-          Enter your property price and get a clear monthly estimate without hidden interest.
-        </p>
-        <a
-          href="#calculator"
-          className="focus-ring mt-10 inline-flex items-center gap-2 rounded-full bg-cream px-7 py-3.5 font-medium text-ink transition hover:bg-white"
-        >
-          Estimate my payment
-          <span aria-hidden="true">→</span>
-        </a>
       </div>
     </header>
   )

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import RatesTable from '@/components/RatesTable'
 
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
 export default function RatesPage() {
   return (
     <main className="min-h-screen bg-cream text-ink">
+      <Header />
       <section className="mx-auto max-w-6xl px-6 py-16 sm:px-8 lg:py-24">
         <div className="rounded-[2rem] border border-line bg-card p-8 shadow-[0_30px_80px_-40px_rgba(22,35,31,0.4)] sm:p-10 lg:p-12">
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-sage">
