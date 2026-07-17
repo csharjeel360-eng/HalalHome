@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     'islamic home financing default pakistan',
   ],
   alternates: {
-    canonical: 'https://www.halalhomecalculator.pk/blog/what-happens-if-you-miss-payment-islamic-home-financing',
+    canonical: 'https://www.egtafy.com/blog/what-happens-if-you-miss-payment-islamic-home-financing',
   },
   openGraph: {
     title: 'What Happens If You Miss a Payment on Islamic Home Financing?',
     description:
       'Learn the consequences of missing an Islamic home financing payment and how banks usually handle it.',
-    url: 'https://www.halalhomecalculator.pk/blog/what-happens-if-you-miss-payment-islamic-home-financing',
+    url: 'https://www.egtafy.com/blog/what-happens-if-you-miss-payment-islamic-home-financing',
     type: 'article',
   },
 }

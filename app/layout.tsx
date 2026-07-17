@@ -25,7 +25,7 @@ const plexMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.halalhomecalculator.pk'),
+  metadataBase: new URL('https://www.egtafy.com'),
   title: 'Islamic Home Financing Calculator Pakistan | Halal Mortgage Estimate',
   description:
     'Free Islamic home financing calculator for Pakistan. Estimate your monthly Diminishing Musharaka payment — no interest, no riba. Instant, accurate, easy to use.',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: 'Islamic Home Financing Calculator | Halal Mortgage Estimate Pakistan',
     description:
       'Estimate your monthly Islamic home financing payment in seconds — riba-free, transparent, made for Pakistan.',
-    url: 'https://www.halalhomecalculator.pk',
+    url: 'https://www.egtafy.com',
     siteName: 'Halal Home Calculator',
     locale: 'en_PK',
     type: 'website',

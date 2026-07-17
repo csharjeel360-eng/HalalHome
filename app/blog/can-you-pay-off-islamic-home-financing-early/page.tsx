@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     'buyout islamic home financing pakistan',
   ],
   alternates: {
-    canonical: 'https://www.halalhomecalculator.pk/blog/can-you-pay-off-islamic-home-financing-early',
+    canonical: 'https://www.egtafy.com/blog/can-you-pay-off-islamic-home-financing-early',
   },
   openGraph: {
     title: 'Can You Pay Off Islamic Home Financing Early? Here\'s How It Works',
     description:
       'Understand early settlement, buyout terms, and the real cost of paying off Islamic home financing sooner.',
-    url: 'https://www.halalhomecalculator.pk/blog/can-you-pay-off-islamic-home-financing-early',
+    url: 'https://www.egtafy.com/blog/can-you-pay-off-islamic-home-financing-early',
     type: 'article',
   },
 }

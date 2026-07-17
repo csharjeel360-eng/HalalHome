@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     'diminishing musharaka mistakes',
   ],
   alternates: {
-    canonical: 'https://www.halalhomecalculator.pk/blog/5-mistakes-islamic-home-financing',
+    canonical: 'https://www.egtafy.com/blog/5-mistakes-islamic-home-financing',
   },
   openGraph: {
     title: '5 Mistakes People Make When Choosing Islamic Home Financing',
     description:
       'Learn the most common mistakes buyers make with Islamic home financing in Pakistan and how to avoid them.',
-    url: 'https://www.halalhomecalculator.pk/blog/5-mistakes-islamic-home-financing',
+    url: 'https://www.egtafy.com/blog/5-mistakes-islamic-home-financing',
     type: 'article',
   },
 }

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'home financing eligibility pakistan',
   ],
   alternates: {
-    canonical: 'https://www.halalhomecalculator.pk/blog',
+    canonical: 'https://www.egtafy.com/blog',
   },
   openGraph: {
     title: 'Islamic Home Financing Blog Pakistan',
@@ -137,13 +137,13 @@ export default function BlogPage() {
     publisher: {
       '@type': 'Organization',
       name: 'Halal Home Calculator',
-      url: 'https://www.halalhomecalculator.pk',
+      url: 'https://www.egtafy.com',
     },
     blogPost: posts.map((post) => ({
       '@type': 'BlogPosting',
       headline: post.title,
       description: post.excerpt,
-      url: `https://www.halalhomecalculator.pk${post.href}`,
+      url: `https://www.egtafy.com${post.href}`,
     })),
   }
 
