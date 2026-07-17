@@ -25,7 +25,7 @@ const plexMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.egtafy.com'),
+  metadataBase: new URL('https://egtafy.com'),
   title: 'Islamic Home Financing Calculator Pakistan | Halal Mortgage Estimate',
   description:
     'Free Islamic home financing calculator for Pakistan. Estimate your monthly Diminishing Musharaka payment — no interest, no riba. Instant, accurate, easy to use.',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: 'Islamic Home Financing Calculator | Halal Mortgage Estimate Pakistan',
     description:
       'Estimate your monthly Islamic home financing payment in seconds — riba-free, transparent, made for Pakistan.',
-    url: 'https://www.egtafy.com',
+    url: 'https://egtafy.com',
     siteName: 'Halal Home Calculator',
     locale: 'en_PK',
     type: 'website',
@@ -75,11 +75,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-adsense-account" content="ca-pub-4145901573793792" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4145901573793792"
           crossOrigin="anonymous"
         />
+        
       </head>
       <body
         className={`${fraunces.variable} ${inter.variable} ${plexMono.variable} font-body antialiased`}

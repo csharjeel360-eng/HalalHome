@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: 'Islamic Home Financing Blog Pakistan',
     description:
       'Practical guides for Muslim home buyers in Pakistan on halal financing, eligibility, and property buying.',
-    url: 'https://www.halalhomecalculator.pk/blog',
+    url: 'https://www.egtafy.com/blog',
     type: 'website',
   },
   twitter: {
@@ -133,7 +133,7 @@ export default function BlogPage() {
     headline: 'Islamic Home Financing Blog Pakistan',
     description:
       'Practical guides for Muslim home buyers in Pakistan on Islamic home financing, halal home ownership, eligibility, and property buying.',
-    url: 'https://www.halalhomecalculator.pk/blog',
+    url: 'https://www.egtafy.com/blog',
     publisher: {
       '@type': 'Organization',
       name: 'Halal Home Calculator',
