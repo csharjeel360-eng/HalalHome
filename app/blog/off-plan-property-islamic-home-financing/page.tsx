@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
 import RelatedPosts from '@/components/RelatedPosts'
+import AuthorByline from '@/components/AuthorByline'
 
 export const metadata: Metadata = {
   title: 'Off-Plan Property and Islamic Home Financing: What Buyers Need to Know Before Investing',
@@ -24,6 +25,10 @@ export default function BlogPostPage() {
             Buying a home before it is even built sounds like a leap of faith. Yet off-plan property remains one of the most popular ways to enter the real estate market, especially where Islamic finance plays a central role.
           </p>
         </header>
+
+        <div className='mt-8'>
+          <AuthorByline />
+        </div>
 
         <div className='mt-12 space-y-10 text-lg leading-8 text-ink/80'>
           <section>

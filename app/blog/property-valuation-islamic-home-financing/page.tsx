@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
 import RelatedPosts from '@/components/RelatedPosts'
+import AuthorByline from '@/components/AuthorByline'
 
 export const metadata: Metadata = {
   title: 'How Property Valuation Works in Islamic Home Financing — And Why Banks Might Offer You Less Than You Expect',
@@ -24,6 +25,10 @@ export default function BlogPostPage() {
             You have found the property. The price feels right. Then the bank&apos;s valuation comes back lower than what you agreed with the seller, and suddenly your financing plan does not add up the way you thought it would.
           </p>
         </header>
+
+        <div className='mt-8'>
+          <AuthorByline />
+        </div>
 
         <div className='mt-12 space-y-10 text-lg leading-8 text-ink/80'>
           <section>

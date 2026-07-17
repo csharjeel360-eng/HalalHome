@@ -118,6 +118,12 @@ const posts = [
       'A practical guide to property valuation in Islamic home financing, why banks may value a property lower than the purchase price, and what buyers can do about it.',
     href: '/blog/property-valuation-islamic-home-financing',
   },
+  {
+    title: 'Why Was My Islamic Home Financing Application Rejected?',
+    excerpt:
+      'Got rejected for Islamic home financing in Pakistan? Here is what usually causes rejections, including income ratio, credit history, valuation gaps, and paperwork issues.',
+    href: '/blog/why-islamic-home-financing-rejected',
+  },
 ]
 
 export default function BlogPage() {
@@ -162,19 +168,50 @@ export default function BlogPage() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 lg:grid-cols-2">
-          {posts.map((post) => (
-            <article key={post.href} className="rounded-[2rem] border border-line bg-card p-8 shadow-[0_25px_70px_-35px_rgba(22,35,31,0.25)]">
-              <h2 className="font-display text-2xl font-semibold text-ink">{post.title}</h2>
-              <p className="mt-4 text-ink/75">{post.excerpt}</p>
-              <Link
-                href={post.href}
-                className="focus-ring mt-6 inline-flex items-center rounded-full bg-emerald px-6 py-3 font-medium text-cream transition hover:bg-emerald-light"
-              >
-                Read article
-              </Link>
-            </article>
-          ))}
+        <div className="mt-12 space-y-6">
+          <article className="overflow-hidden rounded-[2rem] border border-line bg-card shadow-[0_25px_70px_-35px_rgba(22,35,31,0.25)]">
+            <div className="grid gap-8 p-8 sm:p-10 lg:grid-cols-[1.2fr_0.8fr] lg:p-12">
+              <div>
+                <p className="mb-4 text-sm font-medium uppercase tracking-[0.25em] text-sage">Featured article</p>
+                <h2 className="font-display text-3xl font-semibold leading-tight text-ink sm:text-4xl">
+                  Why Was My Islamic Home Financing Application Rejected?
+                </h2>
+                <p className="mt-4 text-lg leading-8 text-ink/75">
+                  Understand the common reasons applications get declined in Pakistan — from income ratios and credit history to valuation gaps and paperwork issues.
+                </p>
+                <Link
+                  href="/blog/why-islamic-home-financing-rejected"
+                  className="focus-ring mt-6 inline-flex items-center rounded-full bg-emerald px-6 py-3 font-medium text-cream transition hover:bg-emerald-light"
+                >
+                  Read featured article
+                </Link>
+              </div>
+              <div className="rounded-[1.5rem] border border-line/70 bg-cream/70 p-6">
+                <p className="text-sm font-medium uppercase tracking-[0.25em] text-sage">What you will learn</p>
+                <ul className="mt-4 space-y-3 text-ink/75">
+                  <li>• Why income-to-installment ratios can trigger rejections</li>
+                  <li>• How credit history and eCIB records affect approval</li>
+                  <li>• Why property valuation gaps can change the outcome</li>
+                  <li>• What steps to take before reapplying</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <div className="grid gap-6 lg:grid-cols-2">
+            {posts.filter((post) => post.href !== '/blog/why-islamic-home-financing-rejected').map((post) => (
+              <article key={post.href} className="rounded-[2rem] border border-line bg-card p-8 shadow-[0_25px_70px_-35px_rgba(22,35,31,0.25)]">
+                <h2 className="font-display text-2xl font-semibold text-ink">{post.title}</h2>
+                <p className="mt-4 text-ink/75">{post.excerpt}</p>
+                <Link
+                  href={post.href}
+                  className="focus-ring mt-6 inline-flex items-center rounded-full bg-emerald px-6 py-3 font-medium text-cream transition hover:bg-emerald-light"
+                >
+                  Read article
+                </Link>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
 

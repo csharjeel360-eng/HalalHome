@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Footer from '@/components/Footer'
 import RelatedPosts from '@/components/RelatedPosts'
+import AuthorByline from '@/components/AuthorByline'
 
 export const metadata: Metadata = {
   title: 'Takaful and Home Financing: Why Islamic Banks Require It (and What It Actually Costs)',
@@ -30,6 +31,10 @@ export default function BlogPostPage() {
           </p>
           </div>
         </header>
+
+        <div className="mt-8">
+          <AuthorByline />
+        </div>
 
         <div className="mt-12 space-y-10 text-lg leading-8 text-ink/80">
           <section>
