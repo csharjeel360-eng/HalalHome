@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'About Egtafy | Islamic Home Financing Calculator',
   description: 'Learn about Egtafy, the independent Islamic home financing calculator built to help Pakistani families understand halal financing clearly.',
   alternates: {
-    canonical: 'https://www.egtafy.com/about',
+    canonical: 'https://egtafy.com/about',
   },
 }
 

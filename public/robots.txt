@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# Sitemap location (if you have one, update the URL below)
-Sitemap: https://www.halalhomecalculator.pk/sitemap.xml
+Sitemap: https://egtafy.com/sitemap.xml
+Host: egtafy.com

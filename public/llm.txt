@@ -4,3 +4,6 @@
 name: Halal Home Calculator
 description: Islamic home financing estimator for Pakistan. Provide honest, clear, and family-friendly guidance based on Diminishing Musharaka principles.
 version: 1.0
+site: https://egtafy.com
+sitemap: https://egtafy.com/sitemap.xml
+robots: https://egtafy.com/robots.txt

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Terms of Service | Egtafy',
   description: 'Terms of service for Egtafy, the halal home financing calculator and educational website.',
   alternates: {
-    canonical: 'https://www.egtafy.com/terms',
+    canonical: 'https://egtafy.com/terms',
   },
 }
 

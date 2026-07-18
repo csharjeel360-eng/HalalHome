@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Privacy Policy | Egtafy',
   description: 'Privacy policy for Egtafy, the halal home financing calculator for Pakistan.',
   alternates: {
-    canonical: 'https://www.egtafy.com/privacy-policy',
+    canonical: 'https://egtafy.com/privacy-policy',
   },
 }
 
@@ -36,7 +36,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="mb-4 font-display text-2xl font-semibold text-ink">Cookies and third-party services</h2>
             <p>
-              Our site may use cookies and third-party services, including Google AdSense, to support site operation and show relevant advertisements. These services may use cookies to serve personalized ads and measure performance.
+              Egtafy may use cookies and third-party services, including Google AdSense, to support site operation and show relevant advertisements. These services may use cookies to deliver personalized ads and measure performance.
             </p>
             <p className="mt-4">
               You can review Google&apos;s advertising policies here: <a href="https://policies.google.com/technologies/ads" className="text-emerald underline-offset-2 hover:underline">https://policies.google.com/technologies/ads</a>

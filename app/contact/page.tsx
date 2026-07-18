@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Contact Egtafy',
   description: 'Get in touch with Egtafy for questions about the calculator, blog content, or privacy matters.',
   alternates: {
-    canonical: 'https://www.egtafy.com/contact',
+    canonical: 'https://egtafy.com/contact',
   },
 }
 

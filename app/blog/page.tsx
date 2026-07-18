@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     'home financing eligibility pakistan',
   ],
   alternates: {
-    canonical: 'https://www.egtafy.com/blog',
+    canonical: 'https://egtafy.com/blog',
   },
   openGraph: {
     title: 'Islamic Home Financing Blog Pakistan',
     description:
       'Practical guides for Muslim home buyers in Pakistan on halal financing, eligibility, and property buying.',
-    url: 'https://www.egtafy.com/blog',
+    url: 'https://egtafy.com/blog',
     type: 'website',
   },
   twitter: {
@@ -133,17 +133,17 @@ export default function BlogPage() {
     headline: 'Islamic Home Financing Blog Pakistan',
     description:
       'Practical guides for Muslim home buyers in Pakistan on Islamic home financing, halal home ownership, eligibility, and property buying.',
-    url: 'https://www.egtafy.com/blog',
+    url: 'https://egtafy.com/blog',
     publisher: {
       '@type': 'Organization',
       name: 'Halal Home Calculator',
-      url: 'https://www.egtafy.com',
+      url: 'https://egtafy.com',
     },
     blogPost: posts.map((post) => ({
       '@type': 'BlogPosting',
       headline: post.title,
       description: post.excerpt,
-      url: `https://www.egtafy.com${post.href}`,
+      url: `https://egtafy.com${post.href}`,
     })),
   }
 

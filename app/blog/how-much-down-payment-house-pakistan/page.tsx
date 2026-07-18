@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     'home financing down payment pakistan',
   ],
   alternates: {
-    canonical: 'https://www.egtafy.com/blog/how-much-down-payment-house-pakistan',
+    canonical: 'https://egtafy.com/blog/how-much-down-payment-house-pakistan',
   },
   openGraph: {
     title: 'How Much Down Payment Do You Actually Need for a House in Pakistan?',
     description:
       'Learn how much cash you may need upfront for a house in Pakistan, including bank and government scheme options.',
-    url: 'https://www.egtafy.com/blog/how-much-down-payment-house-pakistan',
+    url: 'https://egtafy.com/blog/how-much-down-payment-house-pakistan',
     type: 'article',
   },
 }
